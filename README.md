@@ -1,2 +1,13 @@
-# socblitz.github.io
-Astro marketing site for socblitz
+# Socblitz
+
+Astro-only public marketing site for [socblitz](https://github.com/socblitz).
+
+## Development
+
+```sh
+npm ci --ignore-scripts
+npm test
+npm run build
+```
+
+The static site keeps public marketing separate from the user, organization, and Shared Auth surfaces.
